@@ -4,3 +4,4 @@ ENV TRANING="DEVOPS" \
     TRAINER="SHIVA" \
     DUARTION="120 HRS" 
 CMD ["nginx","-g","daemon off;"]
+ 
