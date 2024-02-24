@@ -3,8 +3,8 @@ ARG username
 RUN adduser $username
 USER $username
 ARG COURSE
-ARG TRANER
-RUN echo "Course: ${COURSE},Trainer: ${TRANER}"
+ARG TRAINER
+RUN echo "Course: ${COURSE},Trainer: ${TRAINER}"
 ENV COURSE=${COURSE}
-ENV TRANER=${TRANER}
+ENV TRAINER=${TRAINER}
 CMD ["sleep","100"]
